@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper { 
   margin: 0 auto;
   width: clamp(calc(320px - 3rem), 75%, 70ch);
   height: calc(75vh - 2.5rem);
@@ -14,6 +14,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1rem;
 }
 
 .menu a {
