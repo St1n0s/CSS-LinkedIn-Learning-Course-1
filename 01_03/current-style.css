@@ -13,6 +13,10 @@
   list-style: none;
   margin: 1rem;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  grid-auto-flow: dense;
 }
 
 .grid li {
@@ -24,4 +28,5 @@
 
 li.featured {
   border-color: purple;
+  grid-row: span 2; 
 }
