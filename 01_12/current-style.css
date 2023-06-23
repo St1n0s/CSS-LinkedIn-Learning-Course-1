@@ -26,11 +26,14 @@ img {
 .main {
   display: flex;
   justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .card {
-  width: clamp(20ch, 50%, var(--content-width));
-  margin: 2rem;
+  display: flex;
+  flex: 1 1 clamp( 20ch, calc(1/4 * 100%), 100%);
   border: .5rem solid black;
   container-type: inline-size;
 }
